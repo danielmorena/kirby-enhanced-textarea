@@ -178,6 +178,13 @@ buttons::$setup = array(
     'template' => '*{text}*',
     'icon'     => 'italic'
   ),
+  'strikethrough' => array(
+    'label'    => $this->translation['buttons.strikethrough.label'],
+    'text'     => $this->translation['buttons.strikethrough.text'],
+    'shortcut' => 'meta+s',
+    'template' => '~~{text}~~',
+    'icon'     => 'strikethrough'
+  ),
   'blockquote' => array(
     'label'    => $this->translation['buttons.blockquote.label'],
     'text'     => ' ',
