@@ -51,13 +51,15 @@ class Buttons {
         $html .= '<div class="kirbytag-name">';
         $html .= $kirbytag;
         $html .= '</div>';
-        $html .= '<div class="attributes">';
-        foreach ($content["attr"] as $key => $content) {
-          $html .= '<div class="attribute">';
-          $html .= $content;
+        if(array_key_exists("attr", $content)) {
+          $html .= '<div class="attributes">';
+          foreach ($content["attr"] as $key => $content) {
+           $html .= '<div class="attribute">';
+           $html .= $content;
+           $html .= '</div>';
+          }
           $html .= '</div>';
         }
-        $html .= '</div>';
         $html .= '</div>';
       }
       $html .= '</div>';
