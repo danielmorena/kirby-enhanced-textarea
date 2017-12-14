@@ -1,5 +1,7 @@
 # Kirby Enhanced Textarea v1.7.1 <a href="https://www.paypal.me/medienbaecker"><img width="125" src="https://cloud.githubusercontent.com/assets/7975568/26115669/fb7041b0-3a60-11e7-8480-d1d5c303717c.png" alt="Buy me a beer"></a>
 
+**(This field is no longer actively developed. Please use its successor [Kirby SimpleMDE](https://github.com/medienbaecker/kirby-simplemde) instead.)**
+
 This textarea extends the built-in textarea without reinventing the wheel. Handy and customizable headline functions, intelligent list buttons and a custom page selector make editing textareas a breeze.
 
 ![Preview](https://cloud.githubusercontent.com/assets/7975568/26114866/b3d1ee64-3a5e-11e7-8da6-0154f5e3399f.gif)
